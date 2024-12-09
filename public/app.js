@@ -1,4 +1,4 @@
-const socket = io('ws://localhost:3500')
+const socket = io('https://web-socket-nodejs.onrender.com')
 
 
 const msgInput = document.querySelector('#message')
